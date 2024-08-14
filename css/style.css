@@ -1,0 +1,423 @@
+body {
+    margin-left: 64px;
+    margin-right: 64px;
+    background-color: #FFF;
+  }
+
+/* Start of Rules - Page Formating */
+  .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .section {
+    width: 90%; /* Percentage-based width for responsiveness */
+    max-width: 1300px;
+    margin-bottom: 32px; /* Space between each section */
+    padding: 1ch;
+    /* border: 1px solid #000; - these lines are for testing section spaces based on figma dimentions
+    background-color: #FFF; */
+    box-sizing: border-box; /* Includes padding left and right */
+    position: relative; /* Position text when screen size changes */
+  }
+  
+  .section1 {
+    height: 2100px;
+  }
+  
+  .section1 h1 {
+    position: absolute;
+    top: 349px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 160px;
+    font-family: Arial, sans-serif;
+  }
+
+  .section1 h2 {
+    position: absolute;
+    object-fit: cover;
+    bottom: -50px;
+    left: 0;
+    width: 60%;
+    height: 3.07%;
+    text-align: left;
+    font-size: 64px;
+    letter-spacing: 6.5px;
+    font-weight: 100;
+    font-family: sans-serif
+  }
+  
+  .section2 {
+    height: 1398px;
+  }
+  
+  .section3 {
+    height: 736px;
+    padding: 0;
+  }
+  
+  .section4 {
+    height: 1676px;
+  }
+  
+  .section5 {
+    max-width: 1090px;
+    height: 350px;
+    align-items: center;
+  }
+/* End of Rules - Page Formating */
+/* Start - Section 1 */
+  .building{
+    position: relative;
+    top: 475px; /* Increased by 128px */
+    right: 538px;
+    bottom: 160px;
+    left: 0;
+    width: 58.61%;
+    height: 71.28%;
+    object-fit: cover;
+  }
+
+  .subtitle {
+    position: absolute;
+    top: 29.57%;
+    right: 6.38%;
+    left: 74.92%;
+    font-size: 28px;
+    font-family: Arial, sans-serif; 
+  }
+
+  .text-box {
+    display: flex;
+    width: 24.3%;
+    height: 12.19%;
+    padding: 16px 4px;
+    border-radius: 16px;
+    position: absolute;
+    top: 990px;
+    right: 99px;
+    font-size: 56px;
+    font-family: sans-serif; 
+    justify-content: center; 
+    align-items: center;
+    border: 0px #E3E3E3;
+    background: #E3E3E3;
+  }
+
+  .wall {
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    top: 1362px; 
+    right: 99px; 
+    width: 24.92%; 
+    height: 13.71%; 
+    border-radius: 8px;
+  }
+
+  .sky {
+    display: flex;
+    position: absolute;
+    object-fit: cover;
+    top: 1734px;
+    right: 99px; 
+    width: 24.92%;
+    height: 13.71%; 
+    border-radius: 8px;
+  }
+
+  .chapter2 {
+    position: absolute;
+    top: 349px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 160px;
+    font-family: Arial, sans-serif;
+  }
+/* End - Section 1 */
+/* Start - Section 2 */
+  .camera {
+    width: 1312px;
+    height: 600px;
+    left: 0;
+    width: 100%;
+    position: absolute;
+    object-fit: cover;
+  }
+
+  .pole {
+    position: absolute;
+    object-fit: cover;
+    top: 47.35%; 
+    left: 0%; 
+    width: 48.61%; 
+    height: 36.62%; 
+  }
+
+  .screen {
+    position: absolute;
+    object-fit: cover;
+    top: 47.35%;
+    right: 0%; 
+    width: 48.61%; 
+    height: 36.62%;
+  }
+
+  .binaryTextBox {
+    left: 0px;
+    right: 0px;
+    border-radius: 32px;
+    background: #BAD4DD;
+    position: absolute;
+    top: 1206px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    transition: 0.3s;
+  }
+
+  .binaryTextBox:hover {
+    left: 0px;
+    right: 0px;
+    border-radius: 32px;
+    background: #bad4dd00;
+    color: #bad4dd00;
+    position: absolute;
+    top: 1206px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    transition: 0.3s;
+  }
+
+  .binaryTextBox2 {
+    left: 0px;
+    right: 0px;
+    height: 189px;
+    border-radius: 32px;
+    background: #599fb8;
+    position: absolute;
+    top: 1206px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 56px;
+  }
+
+/* End - Section 2 */
+/* Start - Section 3 */
+
+  .chapter3 {
+    position: static;
+    width: 100%;
+    align-items: center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background-color: #B0C4CB;
+    color: black; 
+    font-size: 48px;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    border-radius: 16px;
+    letter-spacing: 5px;
+    font-weight: 300;
+}
+
+.connect {
+  position: absolute;
+  object-fit: cover;
+  top: 21.19%; 
+  left: 0%; 
+  width: 65.61%; 
+  height: 73.91%; 
+  border-radius: 8px;
+}
+
+.tokyo {
+  position: absolute;
+  object-fit: cover;
+  top: 21.19%; 
+  left: 68.07%; 
+  width: 31.76%; 
+  height: 34.78%; 
+  border-radius: 8px;
+}
+
+.lone {
+  position: absolute;
+  object-fit: cover;
+  top: 60.32%; 
+  left: 68.07%; 
+  width: 31.76%; 
+  height: 34.78%; 
+  border-radius: 8px;
+}
+
+.hr1 {
+  position: absolute;
+  top: 720px;
+  width: 100%;
+  height: 5px;
+  background-color: #719189;
+  border-width: 0px;
+}
+/* End - Section 3 */
+/* Start - Section 4 */
+.chapter4 {
+  display: flex;
+  position: absolute;
+  object-fit: cover;
+  top: 0%;
+  left: 0%;
+  width: 28.23%;
+  height: 10.38%;
+  background-color: #ffffff;
+  border: 5px solid #5A8862;
+  font-weight: 500;
+  padding: 10px 19px;
+  align-items: center;
+  text-align: left;
+  font-size: 64px;
+  line-height: 1.2;
+  border-radius: 8px;
+  font-family: sans-serif; 
+  transition: 0.3s;
+}
+
+.chapter4:hover {
+  display: flex;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 28.23%;
+  height: 10.38%;
+  background-color: #5A8862;
+  border: 5px solid #5A8862;
+  color: #FFF;
+  font-weight: 500;
+  padding: 10px 19px;
+  align-items: center;
+  text-align: left;
+  font-size: 64px;
+  line-height: 1.2;
+  border-radius: 8px;
+  font-family: sans-serif;
+  transition: 0.3s;
+}
+
+.notes {
+  position: absolute;
+  object-fit: cover;
+  top: 0%; 
+  right: 0%; 
+  left: 33.15%;
+  width: 66.84%; 
+  height: 32.45%; 
+  border-radius: 8px;
+}
+
+.farm {
+  position: absolute;
+  object-fit: cover;
+  top: 13.36%; 
+  left: 0%; 
+  width: 31.92%; 
+  height: 19.09%; 
+  border-radius: 8px;
+}
+
+.question1 {
+  display: flex;
+  width: 19.23%;
+  height: 14.91%;
+  padding: 15px 20px;
+  border-radius: 32px;
+  position: absolute;
+  text-align: center;
+  top: 36.27%;
+  left: 11.76%;
+  font-size: 36px;
+  font-family: sans-serif; 
+  border: 0px #E2DFDF;
+  background: #E2DFDF;
+}
+
+.question2 {
+  display: flex;
+  width: 19.23%;
+  height: 14.91%;
+  padding: 15px 20px;
+  border-radius: 32px;
+  position: absolute;
+  text-align: center;
+  top: 36.27%;
+  left: 38.76%;
+  font-size: 36px;
+  font-family: sans-serif; 
+  border: 0px #E2DFDF;
+  background: #E2DFDF;
+}
+
+.question3 {
+  display: flex;
+  width: 19.23%;
+  height: 14.91%;
+  padding: 15px 20px;
+  border-radius: 32px;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  top: 36.27%;
+  right: 11.76%;
+  font-size: 36px;
+  font-family: sans-serif; 
+  border: 0px #E2DFDF;
+  background: #E2DFDF;
+}
+
+.help {
+  position: absolute;
+  object-fit: cover;
+  top: 57.27%; 
+  left: 11.76%; 
+  width: 76.3%;
+  height: 32.45%; 
+  border-radius: 8px;
+}
+
+.quote {
+  display: flex;
+  position: absolute;
+  top: 89.85%;
+  left: 11.76%;
+  width: 76.3%;
+  height: auto;
+  text-align: center;
+}
+/* Media Query for smaller screens */
+@media (max-width: 768px) {
+  /* Adjust images */
+  .wall, .sky {
+      width: 100%; 
+      height: auto; 
+      right: 0; 
+      margin-bottom: 20px; /* Adds margin below each image */
+  }
+
+  /* Adjust text boxes and other elements */
+  .text-box, .chapter4, .question1, .question2, .question3 {
+      width: 90%; 
+      left: 5%; 
+      font-size: smaller;
+      margin-bottom: 20px; /* Adds margin below each element */
+  }
+
+  /* Hide specific elements */
+  .building, .binaryTextBox, .binaryTextBox2, .subtitle {
+      display: none; /* Use display:none to completely remove from the layout */
+  }
+}
