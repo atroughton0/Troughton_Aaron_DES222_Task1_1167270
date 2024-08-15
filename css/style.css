@@ -1,6 +1,6 @@
 body {
-    margin-left: 64px;
-    margin-right: 64px;
+    margin-left: 3.7%; /* Use percentage rather than 64px for better responsiveness */
+    margin-right: 3.7%;
     background-color: #FFF;
   }
 
@@ -405,19 +405,18 @@ body {
       width: 100%; 
       height: auto; 
       right: 0; 
-      margin-bottom: 20px; /* Adds margin below each image */
+      margin-bottom: 20px;
   }
-
-  /* Adjust text boxes and other elements */
+ 
   .text-box, .chapter4, .question1, .question2, .question3 {
       width: 90%; 
       left: 5%; 
       font-size: smaller;
-      margin-bottom: 20px; /* Adds margin below each element */
+      margin-bottom: 20px;
   }
 
   /* Hide specific elements */
   .building, .binaryTextBox, .binaryTextBox2, .subtitle {
-      display: none; /* Use display:none to completely remove from the layout */
+      display: none; /* Easiest option */
   }
 }
